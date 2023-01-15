@@ -15,9 +15,9 @@ namespace Api.Configurations
                 s.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Gasteei Expanses",
-                    Description = "Gasteei Expanses",
-                    Contact = new OpenApiContact { Name = "Workaholic", Email = "renanortega82@gmail.com" }
+                    Title = "Expenses",
+                    Description = "Expenses",
+                    Contact = new OpenApiContact { Name = "Gasteei", Email = "renanortega82@gmail.com" }
                 });
 
             });
