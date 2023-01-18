@@ -2,4 +2,4 @@
 
 ## Expenses Api
 
-Responsavel por controlar todos os gatos e realizar calculos.
+Responsavel por controlar todos os gastos e realizar calculos.
