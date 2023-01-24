@@ -2,4 +2,4 @@
 
 ## Expenses Api
 
-Responsavel por controlar todos os gastos e realizar calculos.
+Api that will be consumed by the Gasteei app.
