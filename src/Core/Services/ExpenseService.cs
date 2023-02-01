@@ -77,7 +77,7 @@ namespace Core.Services
             if (existingExpense.Title != updateExpenseDto.Title)
                 existingExpense.Title = updateExpenseDto.Title;
 
-            if (existingExpense.Value == updateExpenseDto.Value)
+            if (existingExpense.Value == updateExpenseDto.Value && existingExpense.Title == updateExpenseDto.Title)
                 return;
 
             var expensesTotal = await _expenseTotalService.GetAllExpensesTotal(existingExpense.Email, existingExpense.Start.Date, existingExpense.End.Date);
